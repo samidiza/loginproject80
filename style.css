@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body{
+    font-family: 'Crimson Text', serif;
+    background-color: #0091ff;
+    text-align: center;
+}
+
+.container{
+    margin-left: 450px;
+    margin-top: 100px;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #00eeff;
+    box-shadow: 14px 14px 20px #0e243a, -14px -14px 20px rgb(230, 36, 36);
+}
+
+.brand-title{
+    font-weight: 900;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+.inputs{
+    text-align: center;
+    margin-top: 0px;
+}
+
+label, input, button{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: rgb(255, 0, 85);
+}
+
+input{
+    width: 330px;
+    background-color: #87adca;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #4fa7ff, inset -6px -6px 6px rgb(255, 94, 0);
+}
+
+button{
+    margin-top: 50px;
+    width: 330px;
+    background: #ac0095;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #33ff00, -6px -6px 6px rgb(39, 4, 105);
+}
+
+button:hover{
+    box-shadow: none;
+}
